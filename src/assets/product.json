@@ -1,0 +1,35 @@
+[
+{
+   "productId":1,
+   "productName":"DUMBO Activity toy",
+   "madeBy":"Kids Preffered",
+   "material":"Polyester fibers or plastic attachments",
+   "careInstructions": "Surface wash",
+   "releaseDate":"20 may, 2017",
+   "price": 50,
+   "imageUrl":"../../assets/images/dumbo-toy-1800-540x540.jpg"
+   },
+   {
+    " productId":2,
+    "productName":"Disney Baby",
+    "madeBy":"Kids Preffered",
+    "material":" polyester fibers",
+    "careInstructions": "Machine wash",
+    "releaseDate":"21 aug, 2017",
+    "price": 60,
+    "imageUrl":"https://rukminim1.flixcart.com/image/312/312/j0o5w280/stuffed-toy/z/x/f/minnine-in-red-coat-plush-35-cm-35-disney-original-imaese7yu8fjazze.jpeg?q=70"
+   
+
+   },
+  {
+    " productId":3,
+    "productName":"FINDING NEMO Plush Mat",
+    "madeBy":"Kids Preffered",
+    "material":" polyester fibers",
+    "careInstructions": "Machine wash",
+    "releaseDate":"22 july, 2017",
+    "price": 70,
+    "imageUrl":"../../assets/images/FINDING-NEMO-Plush-Mat-1800--540x540.jpg"
+  }
+   
+] 

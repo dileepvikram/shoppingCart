@@ -1,0 +1,48 @@
+
+<div class ='panel panel-primary'>
+  <body text="black">
+  <div class='panel-heading'
+  align='center'>
+    {{title}}
+  </div>
+ <div>
+ 
+    <button class='btn btn-primary'
+      (click)="checkForSession()">Checkout</button>
+    <app-checkout></app-checkout>
+   
+   </div>
+  <div class='table-responsive'>
+      <table class=' table'
+      *ngIf='products&&products.length'>
+    
+<tbody >
+  <tr *ngFor='let product of products;let i = index'>
+    <td><img [src]='product.imageUrl'
+             [title]='product.productName'
+             [style.width.px]='imageWidth'
+             [style.margin.px]='imageMargin'>
+     
+      
+    </td>
+    <td> {{product.productName}}</td>
+    <td>{{product.releaseDate|date}}</td>
+ 
+    <td>{{product.price}}</td>
+    <td><button class='btn btn-primary'
+      (click)="addToCart(product)">Add to cart</button>
+    <app-cart ></app-cart>
+    </td>
+
+
+  </tr>
+</tbody>
+</table>
+</div>
+</body>
+
+</div>
+
+
+
+
